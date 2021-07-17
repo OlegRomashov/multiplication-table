@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #111;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 600px;
+}
+
+.square {
+  width: 55px;
+  height: 55px;
+  font-size: 28px;
+  color: #1d1d1d;
+  text-align: center;
+  background-color: #1d1d1d;
+  margin: 2px;
+  transition: 2s ease;
+  cursor: pointer;
+}
+
+.square_2 {
+  width: 55px;
+  height: 55px;
+  font-size: 28px;
+  color: #fff;
+  text-align: center;
+  background-color: #1d1d1d;
+  margin: 2px;
+  cursor: pointer;
+}
+
+.table {
+  background-color: DodgerBlue;
+}
+
+.variants {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  position: absolute;
+  left: 1000px;
+  background-color: #111;
+  height: 62px;
+  width: 181px;
+}
+
+.text {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  position: absolute;
+  color:DodgerBlue;
+  font-size: 45px;
+  top: 250px;
+  left: 1000px;
+  height: 62px;
+  width: 181px;
+}
+
+
+.errors {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  position: absolute;
+  left: 1100px;
+  top: 585px;
+  background-color: #111;
+  height: 62px;
+  width: 62px;
+}
+
+.new {
+  border: 3px solid DodgerBlue;
+  background-color: rgb(3, 100, 197);
+  color: rgb(3, 100, 197);
+  transition: 0s;
+}
+
+.right {
+  width: 55px;
+  height: 55px;
+  font-size: 28px;
+  color: #fff;
+  text-align: center;
+  background-color: #1d1d1d;
+  margin: 2px;
+  transition: 2s ease;
+  cursor: pointer;
+}
+
+.vertical {
+  border-top: 3px solid DodgerBlue;
+  border-bottom: 3px solid DodgerBlue;
+  transition-duration: 100ms;
+}
+
+.horizontal {
+  border-left: 3px solid DodgerBlue;
+  border-right: 3px solid DodgerBlue;
+  transition-duration: 100ms;
+}
